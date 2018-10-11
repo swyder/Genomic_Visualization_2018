@@ -16,13 +16,12 @@ Topic             | Software | Person
 ----------------- | -------- | ------------------
 Genome browsers | Ensembl project, BioMart, UCSC | Carla
 Genome viewers | IGV & co | Carla
-Heatmaps | | Stefan
-R packages for genome-wide visualization | | Stefan
+[Heatmaps](Heatmaps.md) | | Stefan
+[R packages for genome-wide visualization](Rpackages.md) | | Stefan
   
   
 Carla's material: [Presentation]() | [Exercises]()  
   
-Stefan's [Heatmaps](Heatmaps.md) | [Genome-wide data visualization using R](Rpackages.md) 
   
   
   

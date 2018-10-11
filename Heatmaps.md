@@ -41,13 +41,12 @@ install.packages(pheatmap)
 ### heatmaply: interactive heatmaps
 
 https://github.com/talgalili/heatmaply  
-![IdeoViz](example1_IdeoViz.png)
 
 - interactive (.js) with zooming 
 - also suitable for very large matrices (e.g. all genes)
 - lots of examples with code
 
-2 examples: [sample-sample correlation of all genes](https://cdn.rawgit.com/talgalili/heatmaplyExamples/master/inst/doc/biological_data.html#visualization-of-raw-and-voom-transformed-data-all-genes)
+2 examples: [simple plot](https://cran.r-project.org/web/packages/heatmaply/vignettes/heatmaply.html) and [sample-sample correlation of all genes](https://cdn.rawgit.com/talgalili/heatmaplyExamples/master/inst/doc/biological_data.html#visualization-of-raw-and-voom-transformed-data-all-genes)
 
 Many examples on:  
 https://cran.r-project.org/web/packages/heatmaply/vignettes/heatmaply.html  
