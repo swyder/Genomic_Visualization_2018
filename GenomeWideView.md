@@ -48,10 +48,8 @@ biocLite("IdeoViz")
 https://bioconductor.org/packages/release/bioc/html/ggbio.html
 
 - syntax like ggplot2
-- not under active development
 
 More examples   
-- http://www.tengfei.name/ggbio/docs/man/layout_karyogram-method.html  
 - http://www.sthda.com/english/wiki/ggbio-visualize-genomic-data  
 - http://rstudio-pubs-static.s3.amazonaws.com/9418_48ced8100f784734be7541bdda5da402.html#/20  
 
