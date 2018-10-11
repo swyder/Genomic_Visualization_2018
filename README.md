@@ -9,8 +9,7 @@ carla.bello@ieu.uzh.ch
 
 
 ## Genomic Data visualization
-  
-  
+    
 
 Topic             | Software | Person 
 ----------------- | -------- | ------------------

@@ -12,7 +12,7 @@ https://bernatgel.github.io/karyoploter_tutorial/
 - documentation quite good
 - requires R version >= 3.4
 
-![KaryoploteR](Example_KaryoploteR_multipleData.png)
+![KaryoploteR](Example_KaryoploteR_multipleData.png)  
 (Code: https://bernatgel.github.io/karyoploter_tutorial/Examples/MultipleDataTypes/MultipleDataTypes.html)
 
 #### Many different types of plots
@@ -47,6 +47,9 @@ biocLite("IdeoViz")
 
 https://bioconductor.org/packages/release/bioc/html/ggbio.html
 
+![ggbio](ggbio.png)  
+(Code: http://girke.bioinformatics.ucr.edu/CSHL_RNAseq/mydoc/mydoc_Rgraphics_7/)
+
 - syntax like ggplot2
 
 More examples   
@@ -56,3 +59,8 @@ More examples
 #### Installation  
 source("http://www.bioconductor.org/biocLite.R")  
 biocLite("ggbio")  
+
+
+### Exercise
+
+1. Pick one package and work through the vignette
