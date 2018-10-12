@@ -39,6 +39,16 @@ Carla's material: [Presentation]() | [Exercises]()
 **More info**  
 - [Ensembl Roadmap](http://www.ensembl.info/roadmap/)
 
-### Genome-wide visualization
+### List of Genome-wide visualization R/Bioconductor packages
 
 - [Bioconductor Views - Visualization](https://www.bioconductor.org/packages/release/BiocViews.html#___Visualization)
+
+### Other useful visualization software we don't discuss
+
+**Circular layout**  
+- [circos](http://circos.ca/)
+- [OmicCircos](https://github.com/swyder/Genomic_Visualization)  
+  
+**Gene models**  
+- [genoPlotR](https://cran.r-project.org/web/packages/genoPlotR/index.html) | [Examples](http://genoplotr.r-forge.r-project.org/screenshots.php)
+

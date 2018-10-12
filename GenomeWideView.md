@@ -1,15 +1,17 @@
 ## R/Bioconductor packages for chromosome-wide visualization
 
-We discuss 3 R/Bioconductor packages that can be used to visualize genome-wide data:
-KaryoploteR, ggbio and IdeoViz.
-
-
+We discuss 3 R/Bioconductor packages that can be used to visualize genome-wide data (e.g. methylation data, density of CpG islands, differential expression, GWAS results, ...):
+KaryoploteR, ggbio and IdeoViz.  
+  
+Genome-wide visualization allows a) to identify distinctive spatial distribution, b) highlight distribution differences between samples/treatments and c) to confirm consistency across genome (e.g. that there are no foci and the change is global).  
+  
+  
 ### KaryoploteR
 
 https://bernatgel.github.io/karyoploter_tutorial/
 
 - plots with nice aesthetics
-- documentation quite good
+- good documentation
 - requires R version >= 3.4
 
 ![KaryoploteR](Example_KaryoploteR_multipleData.png)  
@@ -49,8 +51,11 @@ https://bioconductor.org/packages/release/bioc/html/ggbio.html
 
 ![ggbio](ggbio.png)  
 (Code: http://girke.bioinformatics.ucr.edu/CSHL_RNAseq/mydoc/mydoc_Rgraphics_7/)
-
+  
+  
 - syntax like ggplot2
+- organized by tracks: ideogram track, gene model track, alignment track (read coverage), variants tracks 
+- flexible (linear + circular plots, karyograms, Manhattan plots, ...)
 
 More examples   
 - http://www.sthda.com/english/wiki/ggbio-visualize-genomic-data  
@@ -63,4 +68,7 @@ biocLite("ggbio")
 
 ### Exercise
 
-1. Pick one package and work through the vignette
+1. Work through the [GeneDensity example](https://bernatgel.github.io/karyoploter_tutorial//Examples/GeneDensity/GeneDensity.html) of the karyoploteR package    
+2. Work trhough example 1 of IdeoViz [Vignette](https://www.bioconductor.org/packages/release/bioc/vignettes/IdeoViz/inst/doc/Vignette.pdf)
+3. Pick one package and work through its vignette
+
