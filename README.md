@@ -42,8 +42,9 @@ Carla's material: [Presentation]() | [Exercises]()
 ### List of Genome-wide visualization R/Bioconductor packages
 
 - [Bioconductor Views - Visualization](https://www.bioconductor.org/packages/release/BiocViews.html#___Visualization)
+  
 
-### Other useful visualization software we don't discuss
+### Other useful visualization software we don't time to discuss
 
 **Circular layout**  
 - [circos](http://circos.ca/)

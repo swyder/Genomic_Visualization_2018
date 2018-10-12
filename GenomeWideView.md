@@ -66,9 +66,24 @@ source("http://www.bioconductor.org/biocLite.R")
 biocLite("ggbio")  
 
 
-### Exercise
+### Exercises
 
 1. Work through the [GeneDensity example](https://bernatgel.github.io/karyoploter_tutorial//Examples/GeneDensity/GeneDensity.html) of the karyoploteR package    
-2. Work trhough example 1 of IdeoViz [Vignette](https://www.bioconductor.org/packages/release/bioc/vignettes/IdeoViz/inst/doc/Vignette.pdf)
+2. Work through example 1 of IdeoViz with simulated data[Vignette](https://www.bioconductor.org/packages/release/bioc/vignettes/IdeoViz/inst/doc/Vignette.pdf)
+```{r}
+library("IdeoViz")
+data(binned_multiSeries)     # error in vignette
+data(hg18_ideo) # cytoBandIdeo table downloaded previously and stored as a data.frame.
+ideo <- getIdeo("hg18")
+head(ideo)
+plotOnIdeo(chrom=seqlevels(binned_multiSeries), # which chrom to plot?
+           ideoTable=ideo, # ideogram name
+           values_GR=binned_multiSeries, # data goes here
+           value_cols=colnames(mcols(binned_multiSeries)), # col to plot
+           col=brewer.pal(n=5,'Spectral'), # colours
+           val_range=c(0,10), # set y-axis range
+           ylab="array intensities",
+           plot_title="Trendline example")
+```
 3. Pick one package and work through its vignette
 
