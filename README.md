@@ -19,7 +19,7 @@ Genome viewers | IGV & co | Carla
 [R packages for genome-wide visualization](GenomeWideView.md) | | Stefan
   
   
-Carla's material: [Presentation]() | [Exercises]()  
+Carla's material: [Presentation](https://github.com/carlalbc/URPP_tutorials/blob/master/Genomic_visualization_2018/GenomeVIZBrowsers2018_Presentation.pdf) | [Exercises](https://github.com/carlalbc/URPP_tutorials/blob/master/Genomic_visualization_2018/GenomeVIZBrowsers2018_Exercises%20.pdf)  
   
   
   
